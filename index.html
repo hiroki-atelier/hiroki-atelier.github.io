@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート / お問い合わせ</title>
+  <style>
+    :root {
+      --bg: #faf8f3;
+      --card: #ffffff;
+      --text: #3a3a3a;
+      --muted: #777;
+      --accent: #c97b5a;
+      --border: #ece7dd;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 24px 16px 64px;
+    }
+    .container { max-width: 640px; margin: 0 auto; }
+    header {
+      text-align: center;
+      padding: 32px 0 24px;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    header p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--border);
+    }
+    .card p { margin-bottom: 10px; }
+    .email {
+      display: inline-block;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      margin: 4px 0;
+    }
+    ul { padding-left: 1.2em; margin: 8px 0; }
+    li { margin-bottom: 6px; }
+    .faq-q { font-weight: 700; margin-top: 16px; }
+    .faq-a { color: var(--muted); }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>サポート / お問い合わせ</h1>
+      <p>ご利用いただきありがとうございます</p>
+    </header>
+
+    <div class="card">
+      <h2>お問い合わせ</h2>
+      <p>アプリの不具合、ご意見・ご要望、その他のお問い合わせは、下記メールアドレスまでご連絡ください。</p>
+      <p><a class="email" href="mailto:h.atelier2026@gmail.com">h.atelier2026@gmail.com</a></p>
+      <p>いただいたお問い合わせには、内容を確認のうえ順次返信いたします。返信までに数日いただく場合がございますので、あらかじめご了承ください。</p>
+      <p>お問い合わせの際は、以下の情報を添えていただけるとスムーズに対応できます。</p>
+      <ul>
+        <li>ご利用の端末（例：iPhone 15）</li>
+        <li>iOSのバージョン</li>
+        <li>アプリのバージョン</li>
+        <li>不具合の場合は、発生した状況や手順</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>よくあるご質問</h2>
+
+      <p class="faq-q">アプリが起動しない／動作が不安定です</p>
+      <p class="faq-a">一度アプリを完全に終了し、再起動をお試しください。改善しない場合は、端末の再起動、アプリの最新版への更新をお試しください。それでも解決しない場合は、上記メールまでご連絡ください。</p>
+
+      <p class="faq-q">不具合を見つけました</p>
+      <p class="faq-a">お手数ですが、上記メールアドレスまで、発生状況をできるだけ詳しくお知らせください。</p>
+    </div>
+
+    <footer>
+      <p>最終更新日: 2026年5月</p>
+    </footer>
+  </div>
+</body>
+</html>
